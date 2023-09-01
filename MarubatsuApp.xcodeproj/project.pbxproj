@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBFF33A2AA2AEF10051AFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF3392AA2AEF10051AFB7 /* AppDelegate.swift */; };
+		ECBFF33C2AA2AEF10051AFB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF33B2AA2AEF10051AFB7 /* SceneDelegate.swift */; };
+		ECBFF33E2AA2AEF10051AFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF33D2AA2AEF10051AFB7 /* ViewController.swift */; };
+		ECBFF3412AA2AEF10051AFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBFF33F2AA2AEF10051AFB7 /* Main.storyboard */; };
+		ECBFF3432AA2AEF90051AFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBFF3422AA2AEF90051AFB7 /* Assets.xcassets */; };
+		ECBFF3462AA2AEF90051AFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBFF3442AA2AEF90051AFB7 /* LaunchScreen.storyboard */; };
+		ECBFF3512AA2AEF90051AFB7 /* MarubatsuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF3502AA2AEF90051AFB7 /* MarubatsuAppTests.swift */; };
+		ECBFF35B2AA2AEF90051AFB7 /* MarubatsuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF35A2AA2AEF90051AFB7 /* MarubatsuAppUITests.swift */; };
+		ECBFF35D2AA2AEF90051AFB7 /* MarubatsuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF35C2AA2AEF90051AFB7 /* MarubatsuAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBFF34D2AA2AEF90051AFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBFF32E2AA2AEF10051AFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBFF3352AA2AEF10051AFB7;
+			remoteInfo = MarubatsuApp;
+		};
+		ECBFF3572AA2AEF90051AFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBFF32E2AA2AEF10051AFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBFF3352AA2AEF10051AFB7;
+			remoteInfo = MarubatsuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBFF3362AA2AEF10051AFB7 /* MarubatsuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatsuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBFF3392AA2AEF10051AFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECBFF33B2AA2AEF10051AFB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECBFF33D2AA2AEF10051AFB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBFF3402AA2AEF10051AFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBFF3422AA2AEF90051AFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBFF3452AA2AEF90051AFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBFF3472AA2AEF90051AFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBFF34C2AA2AEF90051AFB7 /* MarubatsuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatsuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBFF3502AA2AEF90051AFB7 /* MarubatsuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuAppTests.swift; sourceTree = "<group>"; };
+		ECBFF3562AA2AEF90051AFB7 /* MarubatsuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatsuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBFF35A2AA2AEF90051AFB7 /* MarubatsuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuAppUITests.swift; sourceTree = "<group>"; };
+		ECBFF35C2AA2AEF90051AFB7 /* MarubatsuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatsuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBFF3332AA2AEF10051AFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF3492AA2AEF90051AFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF3532AA2AEF90051AFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBFF32D2AA2AEF10051AFB7 = {
+			isa = PBXGroup;
+			children = (
+				ECBFF3382AA2AEF10051AFB7 /* MarubatsuApp */,
+				ECBFF34F2AA2AEF90051AFB7 /* MarubatsuAppTests */,
+				ECBFF3592AA2AEF90051AFB7 /* MarubatsuAppUITests */,
+				ECBFF3372AA2AEF10051AFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBFF3372AA2AEF10051AFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBFF3362AA2AEF10051AFB7 /* MarubatsuApp.app */,
+				ECBFF34C2AA2AEF90051AFB7 /* MarubatsuAppTests.xctest */,
+				ECBFF3562AA2AEF90051AFB7 /* MarubatsuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBFF3382AA2AEF10051AFB7 /* MarubatsuApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECBFF3392AA2AEF10051AFB7 /* AppDelegate.swift */,
+				ECBFF33B2AA2AEF10051AFB7 /* SceneDelegate.swift */,
+				ECBFF33D2AA2AEF10051AFB7 /* ViewController.swift */,
+				ECBFF33F2AA2AEF10051AFB7 /* Main.storyboard */,
+				ECBFF3422AA2AEF90051AFB7 /* Assets.xcassets */,
+				ECBFF3442AA2AEF90051AFB7 /* LaunchScreen.storyboard */,
+				ECBFF3472AA2AEF90051AFB7 /* Info.plist */,
+			);
+			path = MarubatsuApp;
+			sourceTree = "<group>";
+		};
+		ECBFF34F2AA2AEF90051AFB7 /* MarubatsuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBFF3502AA2AEF90051AFB7 /* MarubatsuAppTests.swift */,
+			);
+			path = MarubatsuAppTests;
+			sourceTree = "<group>";
+		};
+		ECBFF3592AA2AEF90051AFB7 /* MarubatsuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBFF35A2AA2AEF90051AFB7 /* MarubatsuAppUITests.swift */,
+				ECBFF35C2AA2AEF90051AFB7 /* MarubatsuAppUITestsLaunchTests.swift */,
+			);
+			path = MarubatsuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBFF3352AA2AEF10051AFB7 /* MarubatsuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBFF3602AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuApp" */;
+			buildPhases = (
+				ECBFF3322AA2AEF10051AFB7 /* Sources */,
+				ECBFF3332AA2AEF10051AFB7 /* Frameworks */,
+				ECBFF3342AA2AEF10051AFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarubatsuApp;
+			productName = MarubatsuApp;
+			productReference = ECBFF3362AA2AEF10051AFB7 /* MarubatsuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBFF34B2AA2AEF90051AFB7 /* MarubatsuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBFF3632AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuAppTests" */;
+			buildPhases = (
+				ECBFF3482AA2AEF90051AFB7 /* Sources */,
+				ECBFF3492AA2AEF90051AFB7 /* Frameworks */,
+				ECBFF34A2AA2AEF90051AFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBFF34E2AA2AEF90051AFB7 /* PBXTargetDependency */,
+			);
+			name = MarubatsuAppTests;
+			productName = MarubatsuAppTests;
+			productReference = ECBFF34C2AA2AEF90051AFB7 /* MarubatsuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBFF3552AA2AEF90051AFB7 /* MarubatsuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBFF3662AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuAppUITests" */;
+			buildPhases = (
+				ECBFF3522AA2AEF90051AFB7 /* Sources */,
+				ECBFF3532AA2AEF90051AFB7 /* Frameworks */,
+				ECBFF3542AA2AEF90051AFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBFF3582AA2AEF90051AFB7 /* PBXTargetDependency */,
+			);
+			name = MarubatsuAppUITests;
+			productName = MarubatsuAppUITests;
+			productReference = ECBFF3562AA2AEF90051AFB7 /* MarubatsuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBFF32E2AA2AEF10051AFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ECBFF3352AA2AEF10051AFB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ECBFF34B2AA2AEF90051AFB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECBFF3352AA2AEF10051AFB7;
+					};
+					ECBFF3552AA2AEF90051AFB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECBFF3352AA2AEF10051AFB7;
+					};
+				};
+			};
+			buildConfigurationList = ECBFF3312AA2AEF10051AFB7 /* Build configuration list for PBXProject "MarubatsuApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBFF32D2AA2AEF10051AFB7;
+			productRefGroup = ECBFF3372AA2AEF10051AFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBFF3352AA2AEF10051AFB7 /* MarubatsuApp */,
+				ECBFF34B2AA2AEF90051AFB7 /* MarubatsuAppTests */,
+				ECBFF3552AA2AEF90051AFB7 /* MarubatsuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBFF3342AA2AEF10051AFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBFF3462AA2AEF90051AFB7 /* LaunchScreen.storyboard in Resources */,
+				ECBFF3432AA2AEF90051AFB7 /* Assets.xcassets in Resources */,
+				ECBFF3412AA2AEF10051AFB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF34A2AA2AEF90051AFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF3542AA2AEF90051AFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBFF3322AA2AEF10051AFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBFF33E2AA2AEF10051AFB7 /* ViewController.swift in Sources */,
+				ECBFF33A2AA2AEF10051AFB7 /* AppDelegate.swift in Sources */,
+				ECBFF33C2AA2AEF10051AFB7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF3482AA2AEF90051AFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBFF3512AA2AEF90051AFB7 /* MarubatsuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF3522AA2AEF90051AFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBFF35B2AA2AEF90051AFB7 /* MarubatsuAppUITests.swift in Sources */,
+				ECBFF35D2AA2AEF90051AFB7 /* MarubatsuAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBFF34E2AA2AEF90051AFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBFF3352AA2AEF10051AFB7 /* MarubatsuApp */;
+			targetProxy = ECBFF34D2AA2AEF90051AFB7 /* PBXContainerItemProxy */;
+		};
+		ECBFF3582AA2AEF90051AFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBFF3352AA2AEF10051AFB7 /* MarubatsuApp */;
+			targetProxy = ECBFF3572AA2AEF90051AFB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBFF33F2AA2AEF10051AFB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBFF3402AA2AEF10051AFB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBFF3442AA2AEF90051AFB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBFF3452AA2AEF90051AFB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBFF35E2AA2AEF90051AFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBFF35F2AA2AEF90051AFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBFF3612AA2AEF90051AFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarubatsuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBFF3622AA2AEF90051AFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarubatsuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBFF3642AA2AEF90051AFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatsuApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarubatsuApp";
+			};
+			name = Debug;
+		};
+		ECBFF3652AA2AEF90051AFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatsuApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarubatsuApp";
+			};
+			name = Release;
+		};
+		ECBFF3672AA2AEF90051AFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatsuApp;
+			};
+			name = Debug;
+		};
+		ECBFF3682AA2AEF90051AFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S8ZDN8Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondlife.MarubatsuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatsuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBFF3312AA2AEF10051AFB7 /* Build configuration list for PBXProject "MarubatsuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBFF35E2AA2AEF90051AFB7 /* Debug */,
+				ECBFF35F2AA2AEF90051AFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBFF3602AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBFF3612AA2AEF90051AFB7 /* Debug */,
+				ECBFF3622AA2AEF90051AFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBFF3632AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBFF3642AA2AEF90051AFB7 /* Debug */,
+				ECBFF3652AA2AEF90051AFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBFF3662AA2AEF90051AFB7 /* Build configuration list for PBXNativeTarget "MarubatsuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBFF3672AA2AEF90051AFB7 /* Debug */,
+				ECBFF3682AA2AEF90051AFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBFF32E2AA2AEF10051AFB7 /* Project object */;
+}
