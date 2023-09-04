@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     var currentQuestionNum: Int = 0
     
     // 問題
-    let questions: [[String: Any]] = [
+    /*
+    let questions: [[String: Any]] = []
         [
             "question": "iPhoneアプリを開発する統合環境はZcodeである",
             "answer": false
@@ -29,13 +30,43 @@ class ViewController: UIViewController {
             "answer": true
         ]
     ]
+    */
     
+    // 問題
+    var questions: [[String: Any]] = []
+
     
+
+    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        showQuestion()
+        if questions.count != 0{
+            showQuestion()
+        }else{
+            questionLabel.text = ""
+        }
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let userDefaults = UserDefaults.standard
+        //"add"というキーで保存された値がなにかある -> 値をtaskArrayへ
+        if userDefaults.object(forKey: "add") != nil {
+            questions = userDefaults.object(forKey: "add") as! [[String: Any]]
+      
+            print(questions)
+            if questions.count != 0{
+                showQuestion()
+            }
+            else{
+                questionLabel.text = ""
+            }
+   
+  
+        }
     }
     
     // 問題を表示する関数
@@ -44,8 +75,7 @@ class ViewController: UIViewController {
 
         if let que = question["question"] as? String {
             questionLabel.text = que
-        }
-    }
+        }    }
     // 回答をチェックする関数
     // 正解なら次の問題を表示します
     func checkAnswer(yourAnswer: Bool) {
@@ -86,11 +116,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tappedNoButton(_ sender: UIButton) {
-        checkAnswer(yourAnswer: false)
+        if questions.count != 0{
+            checkAnswer(yourAnswer: false)
+        }
     }
     
     @IBAction func tappedYesButton(_ sender: UIButton) {
-        checkAnswer(yourAnswer: true)
+        if questions.count != 0{
+            checkAnswer(yourAnswer: true)
+        }
     }
 }
 
