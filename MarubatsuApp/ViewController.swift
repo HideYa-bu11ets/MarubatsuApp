@@ -74,6 +74,7 @@ class ViewController: UIViewController {
         let question = questions[currentQuestionNum]
 
         if let que = question["question"] as? String {
+            print(que)
             questionLabel.text = que
         }    }
     // 回答をチェックする関数
